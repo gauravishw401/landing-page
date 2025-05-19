@@ -6,6 +6,7 @@
 
 body {
   font-family: Roboto;
+  color: #f9faf8;
 }
 
 .header {
@@ -89,4 +90,53 @@ body {
   font-size: 20px;
   width: 125px;
   margin-bottom: 5px;
+}
+
+/* Testimonial Section*/
+
+.testimonial {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-content {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1500px;
+  margin-bottom: 7px;
+}
+
+.testimonial-content-heading {
+  color: #1f2937;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-content-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  flex-basis: 500px;
+  height: 150px;
+}
+.testimonial-content-cards div {
+  height: 200px;
+  width: 200px;
+  border: #3882f6 solid 2px;
+  border-radius: 10px;
+  margin-bottom: 9px;
+}
+.testimonial-content-cards p {
+  color: #1f2937;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #e5e7eb;
+  height: 500px;
 }
