@@ -169,4 +169,37 @@ body {
 /* Sign Up Section */
 .sign-up {
   height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-content {
+  background-color: #3882f6;
+  flex-basis: 1500px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-up-content-text h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.sign-up-content-text p {
+  font-size: 20px;
+}
+
+.sign-up-content-button button {
+  font-size: 30px;
+  background-color: #3882f6;
+  padding: 4px;
+  width: 200px;
+  color: #f9faf8;
+  border: solid 2px #f9faf8;
+  border-radius: 9px;
 }
