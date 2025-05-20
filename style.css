@@ -203,3 +203,23 @@ body {
   border: solid 2px #f9faf8;
   border-radius: 9px;
 }
+
+/* Footer Section */
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 325px;
+}
+
+.footer-content p {
+  font-size: 20px;
+}
