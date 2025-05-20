@@ -98,6 +98,7 @@ body {
   background-color: #f9faf8;
   display: flex;
   justify-content: center;
+  height: 500px;
 }
 
 .testimonial-content {
@@ -122,7 +123,7 @@ body {
   justify-content: space-evenly;
   gap: 5px;
   flex-basis: 500px;
-  height: 150px;
+  height: 50px;
 }
 .testimonial-content-cards div {
   height: 200px;
@@ -138,5 +139,34 @@ body {
 /* Quote Section */
 .quote {
   background-color: #e5e7eb;
-  height: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+}
+.quote-content-para,
+.quote-content-name {
+  color: #1f2937;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.quote-content-para {
+  margin-bottom: 9px;
+  /* align-self: flex-start; */
+}
+.quote-content-name {
+  align-self: flex-end;
+}
+
+/* Sign Up Section */
+.sign-up {
+  height: 400px;
 }
